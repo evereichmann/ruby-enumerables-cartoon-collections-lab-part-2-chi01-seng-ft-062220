@@ -13,7 +13,6 @@ end
 def long_planeteer_calls(planeteer_calls)
   planeteer_calls.any? {|element| element.length > 4 }
 end
-end
 
 def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
