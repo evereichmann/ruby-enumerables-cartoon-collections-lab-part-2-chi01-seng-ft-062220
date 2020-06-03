@@ -5,12 +5,9 @@ def square_array(array)
 end
 
 def summon_captain_planet(planeteer_calls)
-  all_caps = []
-  
-  small_calls.map do |element|
-    "#{small_calls.capitalize}!" == all_caps
+  planeteer_calls.map do |element|
+    element.ca
  end
- all_caps
 end
 
 def long_planeteer_calls(planeteer_calls)
