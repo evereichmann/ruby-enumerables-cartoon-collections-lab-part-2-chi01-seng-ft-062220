@@ -8,9 +8,9 @@ def summon_captain_planet(planeteer_calls)
   all_caps = []
   
   small_calls.map do |element|
-    "#{small_calls.capitalize}!"
-    all_caps << 
-  
+    "#{small_calls.capitalize}!" == all_caps
+ end
+ all_caps
 end
 
 def long_planeteer_calls(planeteer_calls)
